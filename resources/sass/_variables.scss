@@ -1,0 +1,75 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+.spin-spinner {
+   z-index: 100;
+   width: 100vw;
+   height: 100vh;
+   background-color: white;
+   position: absolute;
+   opacity: 0.8;
+}
+
+.spin-inner {
+   position: absolute;
+   top: 47%;
+   left: 47%;
+}
+
+.unspin-spinner {
+   z-index: -100;
+   opacity: 0;
+}
+
+.items {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+.items td, .items th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.items tr:nth-child(even){background-color: #f2f2f2;}
+
+.items tr:hover {background-color: #ddd;}
+
+.items th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.item-img {
+width: 100px;
+}
+
+.item-td-img {
+width: 100px;
+height: 100px;
+text-align: center;
+vertical-align: middle;
+}
